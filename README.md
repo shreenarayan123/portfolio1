@@ -2,7 +2,7 @@
 
 A simple portfolio  built with React. 
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+### [live preview](https://portfolio1-cyan-two.vercel.app/)
 
 
 
