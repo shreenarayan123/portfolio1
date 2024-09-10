@@ -7,7 +7,7 @@ import Ecommerce from '../src/assets/images/Ecommerce.png'
 import Facebook from '../src/assets/images/Facebook.png'
 
 
-const logotext = "Shreenarayan";
+const logotext = "Shreenarayan | Full Stack Maverick  🚀";
 const meta = {
     title: "Shreenarayan J.",
     description: "I’m Shreenarayan Mern stack dev _ Full stack devloper,currently working in Mumbai",
@@ -16,17 +16,17 @@ const meta = {
 const introdata = {
     title: "I’m Shreenarayan Jaiswal",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop full stack web apps",
+        first: "I work from concept to  deployment",
+        second: "I create seamless experiences from ideas",
+        third: "I craft engaging, innovative websites",
     },
-    description: "I am a passionate full-stack developer who builds engaging and innovative web applications",
+    description: "I breathe life into web applications that don't just meet expectations – they shatter them.",
     your_img_url: "https://raw.githubusercontent.com/developedbyed/react-portofolio-with-tailwind/main/public/dev-ed-wave.png",
 };
 
 const dataabout = {
     title: "a bit about my self",
-    aboutme: "I create visually appealing and highly functional websites and web apps that deliver seamless user experiences..",
+    aboutme: "My code is my canvas, and every project is a masterpiece in the making.",
 };
 
 
