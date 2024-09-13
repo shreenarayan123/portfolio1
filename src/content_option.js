@@ -59,44 +59,58 @@ const dataportfolio = [
         img: Scribblr,
         name:"Scribblr",
         description: "Your Ultimate Blogging Hub—Create, Connect, and Curate with Profile Management, Author Following, Blog Publishing, Bookmarking, and More!",
-        link: "https://github.com/shreenarayan123/Scribblr",
+        tech:["React.js", "clouflare-workers", "postgreSQL", "tailwindCSS", "firebase", "prisma"],
+        link: "",
+        code:"https://github.com/shreenarayan123/Scribblr",
     },
     {
         img:Sociate,
         name:"Sociate",
         description: "The All-in-One Social Media Experience—Chat, Share, and Connect!",
-        link: "https://github.com/shreenarayan123/Sociate",
+        tech:["React.js", "express.js", "mongodb","redux", "firebase", "socket.io", "css", "bcrypt", "multer"],
+        link: "",
+        code:"https://github.com/shreenarayan123/Sociate",
     },
     {
         img: Cashly,
         name:"Cashly",
         description: "Experiance seamless digital payments",
+        tech:["React.js", "express.js", "mongodb", "tailwindCSS"],
         link: "https://cashly-eight.vercel.app",
+        code:"https://github.com/shreenarayan123/cashly"
     },
     {
         img: Emart,
         name:"Emart",
         description: "Your ultimate online shopping destination! Sign up, browse endless categories, filter like a pro, and rock a wishlist with easy checkout. ",
+        tech:["React.js", "sass", "strapi CMS", "stripe","redux","cloudinary", "postgreSQL"],
         link: "https://emart-k5vl.vercel.app",
+        code:"https://github.com/shreenarayan123/emart"
     },
     {
         img: StreamVid,
         name:"StreamVid",
         description: "Your next-gen video hub! Browse, filter by category and likes, and enjoy a seamless viewing experience with our signup-free access!",
+        tech:["React.js", "tailwindCSS", "rapidApi"],
         link: "https://youtube-livid-beta.vercel.app/",
+        code:"https://github.com/shreenarayan123/youtube"
     },
 
     {
         img: Ecommerce,
         name:"E-commerce",
         description: "Modern E-commerce platform landing page",
+        tech:["html" ,"css", "javascript", "bootstrap"],
         link: "https://shreenarayan123.github.io/E-commerce/",
+        code:"https://github.com/shreenarayan123/E-commerce"
     },
     {
         img: Facebook,
         name:"Pulse",
         description: "A Facebook-like social media app lading page",
+        tech:["html" ,"css", "javascript"],
         link: "https://shreenarayan123.github.io/Facebook-clone/",
+        code:"https://github.com/shreenarayan123/Facebook-clone"
     }
 ];
 

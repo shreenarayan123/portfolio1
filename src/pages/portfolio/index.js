@@ -27,9 +27,19 @@ export const Portfolio = () => {
       <div className="content">
         <span>{data.name}</span>
         <p>{data.description}</p>
-        <a href={data.link}>
-          {i < 2 ? "view project" : "view Demo"}
+         <div className="techs">
+         {data.tech.map((tech, i) => {
+  return <span className="tech" key={i}>{tech}</span>;
+        })}
+         </div>
+       <div className="links">
+       <a href={data.link}>
+          {data.link !== "" ? "View Demo" : ""}
         </a>
+        <a href={data.code}>
+          Github
+        </a>
+       </div>
       </div>
     </div>
   );

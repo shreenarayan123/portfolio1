@@ -15,7 +15,7 @@
 
     margin: 0.5rem auto;
     padding-bottom: 10px;
-    height:490px;
+    height:520px;
     transition: 0.3s ease;
     font-size: 0;
     border-radius: 18px;
@@ -62,10 +62,30 @@ font-weight: 700;
     opacity: 1;
     color: var(--secondary-color);
 }
+.po_item .content .techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 
+}
+.po_item .content .links{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.po_item .content .techs .tech{
+  background-color:rgb(208, 205, 205) ;
+  text-align: center;
+  padding: 2px 8px ;
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
 .po_item .content a {
     background: var(--bg-color);
     padding: 4px 8px;
+    
     text-align: center;
     font-size: 1rem;
 }
