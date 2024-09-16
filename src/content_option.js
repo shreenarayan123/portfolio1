@@ -107,7 +107,7 @@ const dataportfolio = [
     {
         img: Facebook,
         name:"Pulse",
-        description: "A Facebook-like social media app lading page",
+        description: "A Facebook-like social media app responsive lading page with theme and font customization",
         tech:["html" ,"css", "javascript"],
         link: "https://shreenarayan123.github.io/Facebook-clone/",
         code:"https://github.com/shreenarayan123/Facebook-clone"

@@ -29,7 +29,7 @@ export const Portfolio = () => {
         <p>{data.description}</p>
          <div className="techs">
          {data.tech.map((tech, i) => {
-  return <span className="tech" key={i}>{tech}</span>;
+            return <span className="tech" key={i}>{tech}</span>;
         })}
          </div>
        <div className="links">
@@ -39,6 +39,7 @@ export const Portfolio = () => {
         <a href={data.code}>
           Github
         </a>
+        <span className="soon">{i < 2 ? "Coming soon" : ""}</span>
        </div>
       </div>
     </div>

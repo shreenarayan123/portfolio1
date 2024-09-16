@@ -15,7 +15,7 @@
 
     margin: 0.5rem auto;
     padding-bottom: 10px;
-    height:520px;
+    height:530px;
     transition: 0.3s ease;
     font-size: 0;
     border-radius: 18px;
@@ -39,6 +39,7 @@
 }
 .po_item .content span{
 font-weight: 700;
+
 }
 .po_item .content {
     opacity: 0;
@@ -73,6 +74,12 @@ font-weight: 700;
     align-items: center;
     padding-top: 15px;
     text-decoration: none;
+}
+.po_item .content .soon{
+    padding-left: 150px;
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .po_item .content .techs .tech{
   background-color:rgb(208, 205, 205) ;
