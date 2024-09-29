@@ -39,7 +39,7 @@ export const Portfolio = () => {
         <a href={data.code}>
           Github
         </a>
-        <span className="soon">{i < 2 ? "Coming soon" : ""}</span>
+        <span className="soon">{i < 2 ? "In Progress" : ""}</span>
        </div>
       </div>
     </div>

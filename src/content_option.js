@@ -5,6 +5,7 @@ import Emart from '../src/assets/images/emart.png'
 import StreamVid from '../src/assets/images/StreamVid.png'
 import Ecommerce from '../src/assets/images/Ecommerce.png'
 import Facebook from '../src/assets/images/Facebook.png'
+import Pulse from '../src/assets/images/Pulse.png'
 
 
 const logotext = "Shreenarayan | Full Stack Maverick  🚀";
@@ -31,8 +32,8 @@ const dataabout = {
 
 
 const skills = [{
-        name: "C++",
-        value: 50,
+        name: "C++/DSA",
+        value: 40,
     },
     {
         name: "TypeScript",
@@ -47,21 +48,29 @@ const skills = [{
         value: 90,
     },
     {
-        name: "PostgreSQL",
-        value: 90,
+        name: "Next.js",
+        value: 70,
     },
 ];
 
 
 
 const dataportfolio = [
+    // {
+    //     img: Scribblr,
+    //     name:"Scribblr",
+    //     description: "Your Ultimate Blogging Hub—Create, Connect, and Curate with Profile Management, Author Following, Blog Publishing, Bookmarking, and More!",
+    //     tech:["React.js", "clouflare-workers", "postgreSQL", "tailwindCSS", "firebase", "prisma"],
+    //     link: "",
+    //     code:"https://github.com/shreenarayan123/Scribblr",
+    // },
     {
-        img: Scribblr,
-        name:"Scribblr",
-        description: "Your Ultimate Blogging Hub—Create, Connect, and Curate with Profile Management, Author Following, Blog Publishing, Bookmarking, and More!",
-        tech:["React.js", "clouflare-workers", "postgreSQL", "tailwindCSS", "firebase", "prisma"],
-        link: "",
-        code:"https://github.com/shreenarayan123/Scribblr",
+        img:Pulse,
+        name:"Pulse",
+        description: "An intership Assignment, A task management system..things implement till now ..Frontend, JWT auth",
+        tech:["Next.js", "Shadcn", "Mongodb","Context API", "JWT", "Zod", "Tailwindcss", "bcrypt"],
+        link: "https://pulse-rouge.vercel.app/",
+        code:"https://github.com/shreenarayan123/pulse/tree/main/pulse",
     },
     {
         img:Sociate,
