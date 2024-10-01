@@ -67,7 +67,7 @@ const dataportfolio = [
     {
         img:Pulse,
         name:"Pulse",
-        description: "An intership Assignment, A task management system..things implement till now ..Frontend, JWT auth",
+        description: "A task management system..things implement till now ..Frontend, JWT auth",
         tech:["Next.js", "Shadcn", "Mongodb","Context API", "JWT", "Zod", "Tailwindcss", "bcrypt"],
         link: "https://pulse-rouge.vercel.app/",
         code:"https://github.com/shreenarayan123/pulse/tree/main/pulse",
